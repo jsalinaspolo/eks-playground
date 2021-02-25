@@ -16,7 +16,10 @@ Reference in [AWS](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
 ```
+ 
+### IAM role
 
+Create an IAM role following [this deep link to create an IAM role with Admin access](https://www.eksworkshop.com/020_prerequisites/iamrole/)
 
 ### eksctl
 
