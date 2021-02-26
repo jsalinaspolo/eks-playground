@@ -4,6 +4,16 @@
 * [eksctl](https://eksctl.io/introduction/)
 * [eks-workshop](https://www.eksworkshop.com/intermediate/)
 
+## AWS
+
+> Create an user with admin privilages
+
+Configure aws-cli
+
+```
+aws configure --profile [profile-name]
+```
+
  
 ## Tools
 
@@ -48,4 +58,14 @@ Add into `~/.zshrc`
 ```
 fpath=($fpath ~/.zsh/completion)
 ```
+
+
+## EKS cluster
+
+Default 
+
+```
+ eksctl create cluster --version=1.18 --profile [admin-profile]
+```
+
 
