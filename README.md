@@ -3,17 +3,17 @@
 ## References
 * [eksctl](https://eksctl.io/introduction/)
 * [eks-workshop](https://www.eksworkshop.com/intermediate/)
+* [terraform](https://learn.hashicorp.com/tutorials/terraform/eks?in=terraform/kubernetes)
 
 ## AWS
 
-> Create an user with admin privilages
+> Create a user with admin privileges
 
 Configure aws-cli
 
 ```
 aws configure --profile [profile-name]
 ```
-
  
 ## Tools
 
@@ -59,13 +59,18 @@ Add into `~/.zshrc`
 fpath=($fpath ~/.zsh/completion)
 ```
 
-
-## EKS cluster
+#### EKS cluster
 
 Default 
 
 ```
  eksctl create cluster --version=1.18 --profile [admin-profile]
 ```
+
+
+
+
+### terraform
+
 
 
