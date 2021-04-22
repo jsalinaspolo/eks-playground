@@ -18,3 +18,11 @@ Update kube-config
 ```shell
 aws eks --region us-east-2 update-kubeconfig --name $(terraform output -raw cluster_name) --alias $(terraform output -raw cluster_name)
 ```
+
+## Kubernetes Dashboard
+
+Follow best practices https://blog.heptio.com/on-securing-the-kubernetes-dashboard-16b09b1b7aca
+Avoid dashboard to be public and use `kubectl proxy` to access it
+
+
+
